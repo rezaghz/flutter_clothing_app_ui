@@ -292,6 +292,7 @@ class ProductPage extends StatelessWidget {
             Align(
               alignment: Alignment.centerRight,
               child: Container(
+                margin : EdgeInsets.only(top : 95,right: 25),
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Color.fromRGBO(233, 95, 95, 1)),
